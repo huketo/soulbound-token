@@ -5,3 +5,15 @@ _Soulbound_ 란 워크래프트 게임에서 나온 게임 용어로 Soulbound �
 
 [Soulbound Token 참고 링크](https://www.quicknode.com/guides/ethereum-development/smart-contracts/how-to-create-a-soulbound-token)
 
+## Getting Started
+
+1. [remix 사용법](docs/remix_tutorial.md)
+2. [metamask 사용법](docs/metamask_guide.md)
+3. [pinata 사용법](docs/pinata_guide.md)
+4. [etherscan 사용법](docs/etherscan_guide.md)
+
+### 코드 설명
+
+![contract-001](img/contract_001.png)
+
+`constructor() ERC721("토큰 이름", "토큰 심볼")` 의 경우 컨트랙트가 배포될 때 결정된다.
