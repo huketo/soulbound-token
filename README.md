@@ -5,15 +5,34 @@ _Soulbound_ 란 워크래프트 게임에서 나온 게임 용어로 Soulbound �
 
 [Soulbound Token 참고 링크](https://www.quicknode.com/guides/ethereum-development/smart-contracts/how-to-create-a-soulbound-token)
 
-## Getting Started
+## 사전지식
 
-1. [remix 사용법](docs/remix_tutorial.md)
-2. [metamask 사용법](docs/metamask_guide.md)
-3. [pinata 사용법](docs/pinata_guide.md)
-4. [etherscan 사용법](docs/etherscan_guide.md)
+### 1. Solidity 가이드
 
-### 코드 설명
+- [Solidity 문서](https://solidity-kr.readthedocs.io/ko/latest)
 
-![contract-001](img/contract_001.png)
+### 2. remix 가이드
 
-`constructor() ERC721("토큰 이름", "토큰 심볼")` 의 경우 컨트랙트가 배포될 때 결정된다.
+![remix basic](img/remix-001.png)
+[Remix] 홈 화면의 공식 가이드
+
+[Remix]: https://remix.ethereum.org/
+
+### 3. Metamask 설치
+
+`Metamask`는 Web3 암호화폐 지갑으로 블록체인 네트워크와 상호작용하고 암호화폐를 전송하는 데 사용되는 Chrome 확장 프로그램입니다(SDK나 App의 형태로도 제공됨)
+
+1. [Metamask](https://metamask.io)를 설치합니다.
+
+2. 테스트 네트워크 보기를 설정합니다.
+
+![Metamask-001](img/metamask-001.png)
+
+3. Goerli Faucet으로 테스트 ETH를 받습니다.
+   [Faucet](https://goerlifaucet.com)
+
+## 컨트랙트 배포
+
+## Soulbound Token 발행
+
+## Ethersca
